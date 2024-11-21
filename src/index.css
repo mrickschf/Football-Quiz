@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Définition de la police TheLedDisplaySt-5RLG */
+@font-face {
+  font-family: "TheLedDisplaySt-5RLG";
+  src: url("./assets/TheLedDisplaySt-5RLG.ttf") format("truetype"); /* Vérifiez que le chemin est correct */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Définition de la police NeueMontreal-Light */
+@font-face {
+  font-family: "NeueMontreal-Light";
+  src: url("./assets/NeueMontreal-Light.otf") format("truetype"); /* Vérifiez que le chemin est correct */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Définition de la police TheLedDisplaySt-5RLG */
+@font-face {
+  font-family: "Founders_Grotesk_X-Cond";
+  src: url("./assets/Founders_Grotesk_X-Cond.ttf") format("truetype"); /* Vérifiez que le chemin est correct */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Classe personnalisée pour TheLedDisplaySt-5RLG */
+.font-custom {
+  font-family: "TheLedDisplaySt-5RLG", sans-serif;
+}
+
+/* Classe personnalisée pour NeueMontreal-Light */
+.font-neue {
+  font-family: "NeueMontreal-Light", sans-serif;
+}
+
+/* Classe personnalisée pour NeueMontreal-Light */
+.font-founders {
+  font-family: "Founders_Grotesk_X-Cond", sans-serif;
+}
