@@ -27,7 +27,7 @@ function Navbar({ onStartQuiz }) {
       }`}
     >
       <div className="logo w-20 rounded cursor-pointer" onClick={goToHome}>
-        <img src="src/assets/FootballQuizLogo.webp" alt="logo" />
+        <img src="/FootballQuizLogo.webp" alt="logo" />
       </div>
       <div className="cursor-pointer links flex gap-10 capitalize">
         <a href="#about" className="text-md font-light text-[#e4e4dc]">

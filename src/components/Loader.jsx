@@ -2,11 +2,7 @@ const Loader = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-black overflow-hidden">
       <div className="logo-animation">
-        <img
-          src={"src/assets/FootballQuizLogo.webp"}
-          alt="Logo"
-          className="w-48 h-auto"
-        />
+        <img className="w-48 h-auto" src="/FootballQuizLogo.webp" alt="logo" />
       </div>
 
       <style>
